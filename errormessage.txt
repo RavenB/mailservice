@@ -1,6 +1,1 @@
-Leider ist ein Fehler aufgetreten beim Herunterladen der Daten für Rhein - Rheinfelden (2091).
-
-Bitte kontaktieren Sie Ihren Servicemann.
-
-Freundliche Grüsse
-Ihr Servicemann
+ERROR occurred.
