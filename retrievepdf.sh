@@ -13,9 +13,9 @@ fi
 #WORKINGDIR="/opt/mailservice"
 MUTTCMD="/usr/bin/mutt"
 CURLCMD="/usr/bin/curl"
-WKHTMLTOPDFCMD="/usr/bin/wkhtmltopdf"
 PDFTKCMD="/usr/bin/pdftk"
 RMCMD="/bin/rm"
+WKHTMLTOPDFCMD=${WKHTMLTOPDFCMD:-"/usr/bin/wkhtmltopdf"}
 
 OUTPUTFOLDER="$WORKINGDIR/tmp"
 LOGFOLDER="$WORKINGDIR/logs"
