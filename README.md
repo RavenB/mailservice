@@ -22,4 +22,8 @@ Create a file `config.sh` and put following content into it:
 
     NROFPAGES=<Number of pages from the pdf to send>
 
+# Prerequists
 
+* wkhtmltopdf
+* pdftk
+* mutt
