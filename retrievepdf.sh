@@ -44,7 +44,7 @@ then
 		COUNT=$[$1+1]
 		if [ $COUNT -ge $MAXCALLS ]
 		then
-			ERROREMAILMESSAGE="$WORKINGDIR/errormessage.txt"
+			ERROREMAILMESSAGE="$WORKINGDIR/$ERRORFILE"
 
 			$MUTTCMD -s "$ERRORSUBJECT" -a "$LOGFOLDER/log_$FILENAMETIME.log" -b "$BCC" "$EMAIL" < "$ERROREMAILMESSAGE"	
 			exit $STATUS
@@ -59,7 +59,7 @@ else
 	# MAIL
 	################################
 
-	EMAILMESSAGE="$WORKINGDIR/mailmessage.txt"
+	EMAILMESSAGE="$WORKINGDIR/$MSGFILE"
 
 
   $PDFTKCMD "$OUTPUTFOLDER/$FILENAME.tmp" cat 1 output "$OUTPUTFOLDER/$FILENAME"
