@@ -29,6 +29,7 @@ Create a file `config.sh` and put following content into it:
 * pdftk
 * mutt
 * wget
+* python (+dateutil, xlwt)
 
 # Datasources
 
