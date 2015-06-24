@@ -28,3 +28,10 @@ Create a file `config.sh` and put following content into it:
 * wkhtmltopdf
 * pdftk
 * mutt
+* wget
+
+# Datasources
+
+* http://www.hydrodaten.admin.ch/graphs/2091/level_2091.csv
+* http://www.hydrodaten.admin.ch/graphs/2091/temperature_2091.csv
+* http://www.hydrodaten.admin.ch/graphs/2091/discharge_2091.csv
