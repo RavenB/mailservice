@@ -16,7 +16,7 @@ CURLCMD="/usr/bin/curl"
 WGETCMD=${WGETCMD:-"/usr/local/bin/wget"}
 PDFTKCMD="/usr/bin/pdftk"
 RMCMD="/bin/rm"
-CSV2XLSCMD="python csv2xls.py"
+CSV2XLSCMD=${CSV2XLSCMD:-"python csv2xls.py"}
 
 OUTPUTFOLDER="$WORKINGDIR/tmp"
 LOGFOLDER="$WORKINGDIR/logs"
